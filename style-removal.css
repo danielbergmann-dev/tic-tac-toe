@@ -4,3 +4,5 @@
 
 
 .remove-action{width:100%;min-height:48px;margin-top:16px;padding:12px;border:1px solid var(--purple);border-radius:12px;background:#27243a;color:var(--purple);font-weight:650}.remove-action[aria-pressed="true"]{background:var(--purple);color:#101319}.remove-action:disabled{opacity:.5;cursor:default}.remove-note{font-size:14px;color:var(--muted);line-height:1.4;margin:8px 0}.cell.removable{border:2px dashed var(--purple);cursor:pointer}.cell.removable:not(:disabled):hover{border-color:white;background:#3a3153}
+
+.number.blocked,.opponent .number.blocked{color:#e7b878;background:repeating-linear-gradient(135deg,#30281f,#30281f 6px,#211e1a 6px,#211e1a 12px);border:1px dashed #e7b878;cursor:not-allowed;padding-bottom:14px}.number.blocked:after{content:"1 Zug";position:absolute;bottom:2px;font-size:12px;font-weight:600}.tray .lock-legend{font-size:12px;margin:8px 0 0;color:#e7b878}
