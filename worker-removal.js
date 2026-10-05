@@ -1,2 +1,2 @@
-import {chooseMove} from './engine-removal.js';
-self.onmessage=({data})=>{try{self.postMessage({id:data.id,move:chooseMove(data.board,data.level,data.rights)})}catch{self.postMessage({id:data.id,error:true})}};
+import {chooseMove} from './engine-removal.js?v=lock1';
+self.onmessage=({data})=>{try{self.postMessage({id:data.id,move:chooseMove(data.board,data.level,data.rights,data.locks)})}catch{self.postMessage({id:data.id,error:true})}};
