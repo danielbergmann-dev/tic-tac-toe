@@ -70,3 +70,8 @@ summary:focus-visible{outline:3px solid var(--lime);outline-offset:3px}
  .board{max-width:258px}
  .turn{min-height:48px}
 }
+
+@media(max-width:700px){
+ .yours #choose,.yours .number-help{display:none}
+ .opponent #last,.tip{display:none}
+}
